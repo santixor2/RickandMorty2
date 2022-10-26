@@ -3,6 +3,7 @@ package com.example.rickandmorty
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.activity.viewModels
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.rickandmorty.databinding.ActivityMainBinding
 import com.example.rickandmorty.model.Characters
@@ -27,7 +28,8 @@ class MainActivity : AppCompatActivity() {
         mainAdapter = MainAdapter(listOf())
         binding.rvHome.apply {
             setHasFixedSize(true)
-            layoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL, false)
+            //layoutManager = LinearLayoutManager(context,LinearLayoutManager.VERTICAL, false)
+            layoutManager = GridLayoutManager(context, 2)
             adapter = mainAdapter
         }
 
