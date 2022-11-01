@@ -2,24 +2,14 @@ package com.example.rickandmorty
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.activity.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
-import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.rickandmorty.databinding.ActivityMainBinding
-import com.example.rickandmorty.model.Characters
-import com.example.rickandmorty.util.ResultState
-import com.example.rickandmorty.view.MainAdapter
-import com.example.rickandmorty.viewmodel.MainViewModel
-import com.example.rickandmorty.viewmodel.MainViewModelFactory
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
     private lateinit var navController: NavController
-    private val viewModel: MainViewModel by viewModels(factoryProducer = {MainViewModelFactory()})
-    private lateinit var mainAdapter: MainAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
