@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/characterFragment"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Character"/>
+    <item
+        android:id="@+id/favoritiesFragment"
+        android:icon="@mipmap/ic_launcher"
+        android:title="Favorities"/>
+
+</menu>
