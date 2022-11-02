@@ -1,4 +1,4 @@
-package com.example.rickandmorty.view
+package com.example.rickandmorty.view.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater

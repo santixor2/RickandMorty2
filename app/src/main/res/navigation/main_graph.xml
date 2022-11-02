@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/favoritiesFragment"
-        android:name="com.example.rickandmorty.view.FavoritiesFragment"
+        android:name="com.example.rickandmorty.view.fragment.FavoritiesFragment"
         android:label="FavoritiesFragment"
         tools:layout="@layout/fragment_favorities"/>
     <fragment
         android:id="@+id/characterFragment"
-        android:name="com.example.rickandmorty.view.CharacterFragment"
+        android:name="com.example.rickandmorty.view.fragment.CharacterFragment"
         android:label="fragment_character"
         tools:layout="@layout/fragment_character" />
 </navigation>

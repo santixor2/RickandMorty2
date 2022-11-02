@@ -2,11 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/characterFragment"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Character"/>
+        android:icon="@drawable/ic_character"
+        android:title="@string/personajes"/>
     <item
         android:id="@+id/favoritiesFragment"
-        android:icon="@mipmap/ic_launcher"
-        android:title="Favorities"/>
+        android:icon="@drawable/ic_favorities"
+        android:title="@string/populares"/>
+    <item
+        android:icon="@drawable/ic_episodes"
+        android:title="@string/episodios"/>
 
 </menu>

@@ -1,10 +1,9 @@
-package com.example.rickandmorty.view
+package com.example.rickandmorty.view.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.activity.viewModels
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
@@ -12,6 +11,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.rickandmorty.databinding.FragmentCharacterBinding
 import com.example.rickandmorty.model.Characters
 import com.example.rickandmorty.util.ResultState
+import com.example.rickandmorty.view.adapter.MainAdapter
 import com.example.rickandmorty.viewmodel.MainViewModel
 import com.example.rickandmorty.viewmodel.MainViewModelFactory
 

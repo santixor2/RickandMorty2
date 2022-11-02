@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">RickandMorty</string>
     <string name="title">title</string>
+    <string name="personajes">Personajes</string>
+    <string name="populares">Populares</string>
+    <string name="episodios">Episodios</string>
 </resources>
